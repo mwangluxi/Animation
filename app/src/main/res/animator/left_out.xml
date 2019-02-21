@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:propertyName="translationX"
+    android:valueFrom="0"
+    android:valueTo="-250"
+    android:valueType="floatType" >
+<!-- android:valueType="floatType" 定义的是valuefrom valueto的属性类型-->
+</objectAnimator>

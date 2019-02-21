@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="false" >
+
+    <!-- android:fillAfter是不是回原位 false回原位 -->
+    <!-- 移动变换 -->
+
+
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toXDelta="30%p" />
+
+
+
+    <!-- repeatCount重复的次数  repeatMode重复的方式 -->
+    <!-- 缩放变换 -->
+    <scale
+        android:duration="2000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toXScale="0.3"
+        android:toYScale="0.3" />
+    <!-- 透明度 -->
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="1"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toAlpha="0.3" />
+
+    <!-- 旋转 -->
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:toDegrees="270" />
+    <!-- android:repeatMode="reverse"   reverse旋转过来再旋转回去  restart旋转过来直接回原位 -->
+
+</set>

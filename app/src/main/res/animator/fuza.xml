@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:ordering="together" >
+
+    <!-- 是不是一起变化android:ordering   together一起变化sequentially分开变化 -->
+    <!-- 移动变化 -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="translationX"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="0"
+        android:valueTo="250"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="translationY"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="0"
+        android:valueTo="250"
+        android:valueType="floatType" />
+    <!-- 透明度变化 -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="alpha"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="1"
+        android:valueTo="0.3"
+        android:valueType="floatType" />
+    <!-- 缩放变化 -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="ScaleX"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="1"
+        android:valueTo="2"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="ScaleY"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="1"
+        android:valueTo="2"
+        android:valueType="floatType" />
+    <!-- 旋转变化 -->
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="Rotation"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        android:valueFrom="0"
+        android:valueTo="180"
+        android:valueType="floatType" />
+
+</set>
