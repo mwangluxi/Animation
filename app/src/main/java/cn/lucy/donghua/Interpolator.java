@@ -10,7 +10,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 
 public class Interpolator extends Activity {
-    private ImageView mTw;
+    private ImageView mTw;//修改完了
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
