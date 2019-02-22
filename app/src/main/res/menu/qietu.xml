@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="cn.lucy.donghua.QietuActivity" >
+    tools:context="cn.lucy.donghua.PropertyActivity" >
 
     <item
         android:id="@+id/action_settings"

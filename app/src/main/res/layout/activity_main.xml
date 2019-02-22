@@ -28,6 +28,12 @@
         android:onClick="interpolator"
         android:text="插值器"/>
 
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Property"
+        android:text="属性动画"/>
+
 
 
 
