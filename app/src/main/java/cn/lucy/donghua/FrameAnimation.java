@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 //帧动画
-public class FrameAnimation extends Activity {
+public class FrameAnimation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

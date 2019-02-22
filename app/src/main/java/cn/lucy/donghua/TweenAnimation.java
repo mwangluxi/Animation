@@ -2,12 +2,13 @@ package cn.lucy.donghua;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class TweenAnimation extends Activity {
+public class TweenAnimation extends AppCompatActivity {
     private ImageView mTw;
 
     @Override

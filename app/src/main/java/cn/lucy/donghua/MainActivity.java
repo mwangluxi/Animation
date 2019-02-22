@@ -1,14 +1,15 @@
 package cn.lucy.donghua;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 
-public class MainActivity extends Activity {
+import cn.lucy.donghua.translationanimation.TranslationActivity;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +40,6 @@ public class MainActivity extends Activity {
 
     public void FrameAnimation(View view) {
         start(FrameAnimation.class);
-
     }
 
 
@@ -57,5 +57,13 @@ public class MainActivity extends Activity {
 
     public void Property(View view) {
         start(PropertyActivity.class);
+    }
+
+    public void Ripple(View view) {
+        start(RippleActivity.class);
+    }
+
+    public void TranslationAnimation(View view) {
+        start(TranslationActivity.class);
     }
 }

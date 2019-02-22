@@ -34,6 +34,20 @@
         android:onClick="Property"
         android:text="属性动画"/>
 
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Ripple"
+        android:text="水波纹"/>
+
+
+
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="TranslationAnimation"
+        android:text="转场动画"/>
+
 
 
 

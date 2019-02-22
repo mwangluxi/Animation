@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_button"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:onClick="startTweenTransitionAnimationAtivity"
+            android:text="tween转场动画"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ripple_button"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:onClick="startMDTransitionAnimationAtivity"
+            android:text="MD转场动画"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ripple_button"
+            android:gravity="center"
+            android:textAllCaps="false"
+
+            android:onClick="startFragmentByReplaceAnimationAtivity"
+            android:text="fragment 动画实现1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ripple_button"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:onClick="startFragmentByShowHintAnimationAtivity"
+            android:text="fragment 动画实现2"/>
+    </LinearLayout>
+</RelativeLayout>
