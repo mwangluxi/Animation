@@ -1,4 +1,4 @@
-package cn.lucy.donghua.translationanimation.transition;
+package cn.lucy.animation.translationanimation.transition;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import cn.lucy.donghua.R;
+import cn.lucy.animation.R;
 
 public class MDAnimationActivity extends AppCompatActivity {
 

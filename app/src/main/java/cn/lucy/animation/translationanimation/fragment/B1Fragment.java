@@ -1,4 +1,4 @@
-package cn.lucy.donghua.translationanimation.fragment;
+package cn.lucy.animation.translationanimation.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import cn.lucy.donghua.R;
+import cn.lucy.animation.R;
 
 
 public class B1Fragment extends Fragment {

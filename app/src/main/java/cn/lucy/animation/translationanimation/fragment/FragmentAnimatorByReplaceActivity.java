@@ -1,10 +1,10 @@
-package cn.lucy.donghua.translationanimation.fragment;
+package cn.lucy.animation.translationanimation.fragment;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 
-import cn.lucy.donghua.R;
+import cn.lucy.animation.R;
 
 public class FragmentAnimatorByReplaceActivity extends AppCompatActivity {
 

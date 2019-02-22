@@ -1,4 +1,4 @@
-package cn.lucy.donghua.translationanimation.fragment;
+package cn.lucy.animation.translationanimation.fragment;
 
 /**
  * Created by zbzbgo on 2018/1/5.

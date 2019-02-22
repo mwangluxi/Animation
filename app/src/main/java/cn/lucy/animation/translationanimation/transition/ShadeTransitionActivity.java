@@ -1,9 +1,9 @@
-package cn.lucy.donghua.translationanimation.transition;
+package cn.lucy.animation.translationanimation.transition;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import cn.lucy.donghua.R;
+import cn.lucy.animation.R;
 
 
 public class ShadeTransitionActivity extends AppCompatActivity {

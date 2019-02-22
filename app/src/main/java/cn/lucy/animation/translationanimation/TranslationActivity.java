@@ -1,14 +1,14 @@
-package cn.lucy.donghua.translationanimation;
+package cn.lucy.animation.translationanimation;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import cn.lucy.donghua.R;
-import cn.lucy.donghua.translationanimation.fragment.FragmentAnimatorByReplaceActivity;
-import cn.lucy.donghua.translationanimation.fragment.FragmentAnimatorByShowHintActivity;
-import cn.lucy.donghua.translationanimation.transition.MDAnimationActivity;
+import cn.lucy.animation.R;
+import cn.lucy.animation.translationanimation.fragment.FragmentAnimatorByReplaceActivity;
+import cn.lucy.animation.translationanimation.fragment.FragmentAnimatorByShowHintActivity;
+import cn.lucy.animation.translationanimation.transition.MDAnimationActivity;
 
 
 public class TranslationActivity extends AppCompatActivity {

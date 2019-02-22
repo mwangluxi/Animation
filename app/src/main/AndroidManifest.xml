@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="cn.lucy.donghua"
+          package="cn.lucy.animation"
           >
 
 
@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="cn.lucy.animation.MainActivity"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -23,32 +23,32 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".PropertyActivity">
+        <activity android:name="cn.lucy.animation.PropertyActivity">
         </activity>
-        <activity android:name=".FrameAnimation">
+        <activity android:name="cn.lucy.animation.FrameAnimation">
         </activity>
-        <activity android:name=".TweenAnimation">
+        <activity android:name="cn.lucy.animation.TweenAnimation">
         </activity>
-        <activity android:name=".Interpolator">
+        <activity android:name="cn.lucy.animation.Interpolator">
         </activity>
-        <activity android:name=".RippleActivity">
+        <activity android:name="cn.lucy.animation.RippleActivity">
         </activity>
 
-        <activity android:name=".translationanimation.TranslationActivity"/>
-        <activity android:name=".translationanimation.TweenAnimationActivity"/>
-        <activity android:name=".translationanimation.transition.MDAnimationActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.TranslationActivity"/>
+        <activity android:name="cn.lucy.animation.translationanimation.TweenAnimationActivity"/>
+        <activity android:name="cn.lucy.animation.translationanimation.transition.MDAnimationActivity">
         </activity>
-        <activity android:name=".translationanimation.transition.ExplodeTransitionActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.transition.ExplodeTransitionActivity">
         </activity>
-        <activity android:name=".translationanimation.transition.SlideTransitionActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.transition.SlideTransitionActivity">
         </activity>
-        <activity android:name=".translationanimation.transition.FadeTransitionActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.transition.FadeTransitionActivity">
         </activity>
-        <activity android:name=".translationanimation.transition.ShadeTransitionActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.transition.ShadeTransitionActivity">
         </activity>
-        <activity android:name=".translationanimation.fragment.FragmentAnimatorByReplaceActivity">
+        <activity android:name="cn.lucy.animation.translationanimation.fragment.FragmentAnimatorByReplaceActivity">
         </activity>
-        <activity android:name=".translationanimation.fragment.FragmentAnimatorByShowHintActivity"/>
+        <activity android:name="cn.lucy.animation.translationanimation.fragment.FragmentAnimatorByShowHintActivity"/>
     </application>
 
 </manifest>

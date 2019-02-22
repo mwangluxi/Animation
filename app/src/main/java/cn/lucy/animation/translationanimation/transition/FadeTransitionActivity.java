@@ -1,10 +1,10 @@
-package cn.lucy.donghua.translationanimation.transition;
+package cn.lucy.animation.translationanimation.transition;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.transition.Fade;
 
-import cn.lucy.donghua.R;
+import cn.lucy.animation.R;
 
 
 public class FadeTransitionActivity extends AppCompatActivity {

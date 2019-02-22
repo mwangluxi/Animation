@@ -1,6 +1,5 @@
-package cn.lucy.donghua;
+package cn.lucy.animation;
 
-import android.app.Activity;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
